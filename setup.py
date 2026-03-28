@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
 	'receiver    = nemo_logitech_wrapper.receiver:main'
+    'transmitter    = nemo_logitech_wrapper.transmitter:main'
         ],
     },
 )
